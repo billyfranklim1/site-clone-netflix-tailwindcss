@@ -1,7 +1,7 @@
 # Site clone Netflix com tailwindcss
 
 <p align="center">
-    <img src="src/images/preview.gif" width="400">
+    <img src="src/images/preview.gif" width="700">
 </p>
 
 ## Sobre
