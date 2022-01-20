@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
     <link href="fontawesome/css/all.css" rel="stylesheet" />
-    <title>Netflix</title>
+    <title>Netflix Brasil - assistir a séries e filmes</title>
     <link rel="icon" href="images/favico.ico" type="image/x-icon" />
 </head>
 
 <body>
-    <section class="bg-black w-full h-full display-block">
+    <div class="bg-black w-full h-full display-block ">
         <section style="height: 710px" >
             <div class="absolute h-auto w-auto" >
                 <img class="w-auto h-auto object-cover" src="/src/images/background.jpg" />
@@ -32,7 +32,7 @@
                         <option>Portuguese</option>
                         <option>English</option>
                     </select>
-                    <button class="bg-red-600 text-white px-4 py-2 rounded">
+                    <button class="bg-netflix text-white px-4 py-2 rounded">
                         Entrar
                     </button>
                 </div>
@@ -53,217 +53,238 @@
                     <input id="email" name="email" type="email" placeholder="E-mail"
                         class="bg-white lg:px-4 py-2 rounded" />
 
-                    <button class="bg-red-600 text-white px-4 py-2 rounded mt-2">
+                    <button class="bg-netflix text-white px-4 py-2 rounded mt-2">
                         Vamos lá
                         <i class="fas fa-arrow-right ml-2"></i>
                     </button>
                 </div>
             </div>
         </section>
-        <section class=" border-y-4 border-gray-900 py-14 px-24">
-            <div class="grid grid-cols-12 items-center">
-                <div class="col-span-6">
-                    <h2 class="text-white text-5xl font-bold mt-5">
-                        Aproveite na TV.
+        <section class="border-y-4 border-netflix-border py-10 px-5 md:py-16 md:px-8 lg:px-12 lg:py-0 xl:py-10 xl:px-36 ">
+            <div class="grid grid-cols-12 lg:items-center max-w-screen-lg mx-auto">
+               <div class="col-span-12 lg:col-span-6" >
+                    <div class="text-center lg:text-left text-white">
+                        <h2 class="text-3xl md:text-4xl lg:text-5xl font-medium">
+                            Aproveite na TV.
+                        </h2>
+                        <h3 class="text-md md:text-xl my-5 ">
+                            Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+                            aparelhos de Blu-ray e outros dispositivos.
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-span-12 lg:col-span-6 order-last lg:order-none md:mx-auto">
+                    <div class="lg:text-right item-center">
+                        <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt=""  />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="border-y-4 border-netflix-border py-10 px-5 md:py-16 md:px-8 lg:px-12 lg:py-0 xl:py-10 xl:px-36 ">
+            <div class="grid grid-cols-12 lg:items-center max-w-screen-lg mx-auto">
+                <div class="col-span-12 lg:col-span-6 order-last lg:order-none md:mx-auto">
+                    <div class="lg:text-right item-center">
+                        <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="" />
+                    </div>  
+                </div>
+                <div class="col-span-12 lg:col-span-6" >
+                    <div class="text-center lg:text-left text-white">
+                        <h2 class="text-3xl md:text-4xl lg:text-5xl font-medium">
+                            Baixe séries para assistir offline.
+                        </h2>
+                        <h3 class="text-md md:text-xl my-5">
+                            Salve seus títulos favoritos e sempre tenha algo para assistir.
+                        </h3>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="border-y-4 border-netflix-border py-10 px-5 md:py-16 md:px-8 lg:px-12 lg:py-0 xl:py-10 xl:px-36 ">
+            <div class="grid grid-cols-12 lg:items-center max-w-screen-lg mx-auto">
+                <div class="col-span-12 lg:col-span-6" >
+                    <div class="text-center lg:text-left text-white">
+                        <h2 class="text-3xl md:text-4xl lg:text-5xl font-medium">
+                            Assista quando quiser.
+                        </h2>
+                        <h3 class="text-md md:text-xl my-5">
+                            Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso.                    
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-span-12 lg:col-span-6 order-last lg:order-none md:mx-auto">
+                    <div class="lg:text-right item-center">
+                        <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png"
+                            alt="" />
+                    </div>
+                        
+                </div>
+            </div>
+        </section>
+        <section class="border-y-4 border-netflix-border py-10 px-5 md:py-16 md:px-8 lg:px-12 lg:py-0 xl:py-10 xl:px-36 ">
+            <div class="grid grid-cols-12 lg:items-center max-w-screen-lg mx-auto">
+                <div class="col-span-12 lg:col-span-6 order-last lg:order-none md:mx-auto">
+                    <div class="lg:text-right item-center">
+                        <img src="https://occ-0-1045-3852.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABUb4fcnETtielPJer_ORwZ2iUanycANl37cr81zDaXC9Fmg9c42ofxt0yxetNltG2xUMgf2Aqimz_q1Nsv-38Ng_EjIc.png?r=1b8" alt="" />
+                    </div>
+                </div>
+                <div class="col-span-12 lg:col-span-6" >
+                    <div class="text-center lg:text-left text-white">
+                        <h2 class="text-3xl md:text-4xl lg:text-5xl font-medium">
+                            Crie perfis para crianças.
+                        </h2>
+                        <h3 class="text-md md:text-xl my-5">
+                            Deixe as crianças se aventurarem com seus personagens favoritos em
+                            um espaço feito só para elas, sem pagar a mais por isso.
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="border-y-4 border-netflix-border py-10 px-5 md:py-16 md:px-8 lg:px-12 lg:py-0 xl:py-10 xl:px-36 ">
+            <div class="grid grid-cols-12 lg:items-center max-w-screen-lg mx-auto">
+                <div class="col-span-12">
+                    <h2 class="text-3xl md:text-4xl font-medium text-white mt-5 text-center ">
+                        Perguntas frequentes
                     </h2>
-                    <h3 class="text-white text-2xl my-5">
-                        Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
-                        aparelhos de Blu-ray e outros dispositivos.
-                    </h3>
-                </div>
-                <div class="col-span-6">
-                    <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="" />
-                </div>
-            </div>
-        </section>
-        <section class="border-y-4 border-gray-900  py-14 px-24">
-            <div class="grid grid-cols-12 items-center">
-                <div class="col-span-6">
-                    <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
-                        alt="" />
-                </div>
-                <div class="col-span-6">
-                    <h2 class="text-white text-5xl font-bold mt-5">
-                        Baixe séries para assistir offline.
-                    </h2>
-                    <h3 class="text-white text-2xl my-5">
-                        Salve seus títulos favoritos e sempre tenha algo para assistir.
-                    </h3>
-                </div>
-            </div>
-        </section>
-        <section class="border-y-4 border-gray-900  py-14 px-24">
-            <div class="grid grid-cols-12 items-center 	" >
-                <div class="col-span-6">
-                    <h2 class="text-white text-5xl font-bold mt-5">
-                        Assista quando quiser.
-                    </h2>
-                    <h3 class="text-white text-2xl my-5">
-                        Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso.                    </h3>
-                </div>
-                <div class="col-span-6">
-                    <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png"
-                        alt="" />
-                </div>
-            </div>
-        </section>
-        <section class="border-y-4 border-gray-900  py-14 px-24">
-            <div class="grid grid-cols-12 items-center">
-                <div class="col-span-6">
-                    <img src="https://occ-0-1045-3852.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABUb4fcnETtielPJer_ORwZ2iUanycANl37cr81zDaXC9Fmg9c42ofxt0yxetNltG2xUMgf2Aqimz_q1Nsv-38Ng_EjIc.png?r=1b8"
-                        alt="" />
-                </div>
-                <div class="col-span-6">
-                    <h2 class="text-white text-5xl font-bold mt-5">
-                        Crie perfis para crianças.
-                    </h2>
-                    <h3 class="text-white text-2xl my-5">
-                        Deixe as crianças se aventurarem com seus personagens favoritos em
-                        um espaço feito só para elas, sem pagar a mais por isso.
-                    </h3>
-                </div>
-            </div>
-        </section>
-        <section class="border-y-4 border-gray-900  py-14 px-24">
-            <h2 class="text-white text-5xl mt-5 text-center font-bold">
-                Perguntas frequentes
-            </h2>
-
-            <div class="w-3/4 px-8 mx-auto mt-10">
-                <div class="w-full mb-1">
-                    <button class="bg-zinc-800 w-full focus:outline-none">
-                        <h3 class="text-white text-2xl font-bold my-1 py-4 px-8 justify-between flex">
-                            O que é netflix?
-
-                            <i class="fas fa-chevron-down ml-2"></i>
+    
+                    <div class="md:px-8 my-5 ">
+                        <div class="w-full mb-1">
+                            <button class="bg-zinc-800 w-full focus:outline-none">
+                                <h3 class="text-white text-lg md:text-2xl font-bold my-1 py-3 px-8 justify-between flex "  style="align-items: center;">
+                                    O que é netflix?
+    
+                                    <i class="fas fa-chevron-down ml-2"></i>
+                                </h3>
+                            </button>
+                            <h4 class="hidden text-white md:text-2xl bg-zinc-800 my-1 py-4 px-8">
+                                A Netflix é um serviço de transmissão online que oferece uma ampla
+                                variedade de séries, filmes e documentários premiados em milhares de
+                                aparelhos conectados à internet.
+                                <br />
+                                Você pode assistir a quantos filmes e séries quiser, quando e onde
+                                quiser, sem comerciais – tudo por um preço mensal bem acessível.
+                                Aqui você sempre encontra novidades. A cada semana, adicionamos
+                                novas séries e filmes.
+                            </h4>
+                        </div>
+                        <div class="w-full mb-1">
+                            <button class="bg-zinc-800 w-full focus:outline-none">
+                                <h3 class="text-white text-lg md:text-2xl font-bold my-1 py-3 px-8 justify-between flex "  style="align-items: center;">
+                                    O que é netflix?
+    
+                                    <i class="fas fa-chevron-down ml-2"></i>
+                                </h3>
+                            </button>
+                            <h4 class="hidden text-white md:text-2xl bg-zinc-800 my-1 py-4 px-8">
+                                A Netflix é um serviço de transmissão online que oferece uma ampla
+                                variedade de séries, filmes e documentários premiados em milhares de
+                                aparelhos conectados à internet.
+                                <br />
+                                Você pode assistir a quantos filmes e séries quiser, quando e onde
+                                quiser, sem comerciais – tudo por um preço mensal bem acessível.
+                                Aqui você sempre encontra novidades. A cada semana, adicionamos
+                                novas séries e filmes.
+                            </h4>
+                        </div>
+                        <div class="w-full mb-1">
+                            <button class="bg-zinc-800 w-full focus:outline-none">
+                                <h3 class="text-white text-lg md:text-2xl font-bold my-1 py-3 px-8 justify-between flex "  style="align-items: center;">
+                                    O que é netflix?
+    
+                                    <i class="fas fa-chevron-down ml-2"></i>
+                                </h3>
+                            </button>
+                            <h4 class="hidden text-white md:text-2xl bg-zinc-800 my-1 py-4 px-8">
+                                A Netflix é um serviço de transmissão online que oferece uma ampla
+                                variedade de séries, filmes e documentários premiados em milhares de
+                                aparelhos conectados à internet.
+                                <br />
+                                Você pode assistir a quantos filmes e séries quiser, quando e onde
+                                quiser, sem comerciais – tudo por um preço mensal bem acessível.
+                                Aqui você sempre encontra novidades. A cada semana, adicionamos
+                                novas séries e filmes.
+                            </h4>
+                        </div>
+                        <div class="w-full mb-1">
+                            <button class="bg-zinc-800 w-full focus:outline-none">
+                                <h3 class="text-white text-lg md:text-2xl font-bold my-1 py-3 px-8 justify-between flex "  style="align-items: center;">
+                                    O que é netflix?
+    
+                                    <i class="fas fa-chevron-down ml-2"></i>
+                                </h3>
+                            </button>
+                            <h4 class="hidden text-white md:text-2xl bg-zinc-800 my-1 py-4 px-8">
+                                A Netflix é um serviço de transmissão online que oferece uma ampla
+                                variedade de séries, filmes e documentários premiados em milhares de
+                                aparelhos conectados à internet.
+                                <br />
+                                Você pode assistir a quantos filmes e séries quiser, quando e onde
+                                quiser, sem comerciais – tudo por um preço mensal bem acessível.
+                                Aqui você sempre encontra novidades. A cada semana, adicionamos
+                                novas séries e filmes.
+                            </h4>
+                        </div>
+                        <div class="w-full mb-1">
+                            <button class="bg-zinc-800 w-full focus:outline-none">
+                                <h3 class="text-white text-lg md:text-2xl font-bold my-1 py-3 px-8 justify-between flex "  style="align-items: center;">
+                                    O que é netflix?
+    
+                                    <i class="fas fa-chevron-down ml-2"></i>
+                                </h3>
+                            </button>
+                            <h4 class="hidden text-white md:text-2xl bg-zinc-800 my-1 py-4 px-8">
+                                A Netflix é um serviço de transmissão online que oferece uma ampla
+                                variedade de séries, filmes e documentários premiados em milhares de
+                                aparelhos conectados à internet.
+                                <br />
+                                Você pode assistir a quantos filmes e séries quiser, quando e onde
+                                quiser, sem comerciais – tudo por um preço mensal bem acessível.
+                                Aqui você sempre encontra novidades. A cada semana, adicionamos
+                                novas séries e filmes.
+                            </h4>
+                        </div>
+                        <div class="w-full mb-1">
+                            <button class="bg-zinc-800 w-full focus:outline-none">
+                                <h3 class="text-white text-lg md:text-2xl font-bold my-1 py-3 px-8 justify-between flex "  style="align-items: center;">
+                                    O que é netflix?
+    
+                                    <i class="fas fa-chevron-down ml-2"></i>
+                                </h3>
+                            </button>
+                            <h4 class="hidden text-white md:text-2xl bg-zinc-800 my-1 py-4 px-8">
+                                A Netflix é um serviço de transmissão online que oferece uma ampla
+                                variedade de séries, filmes e documentários premiados em milhares de
+                                aparelhos conectados à internet.
+                                <br />
+                                Você pode assistir a quantos filmes e séries quiser, quando e onde
+                                quiser, sem comerciais – tudo por um preço mensal bem acessível.
+                                Aqui você sempre encontra novidades. A cada semana, adicionamos
+                                novas séries e filmes.
+                            </h4>
+                        </div>
+                    </div>
+    
+    
+                    <div class="text-center my-10">
+                        <h3 class="text-white text-2xl my-5 px-5">
+                            Pronto para assistir? Informe seu email para criar ou reiniciar sua
+                            assinatura.
                         </h3>
-                    </button>
-                    <h4 class="hidden text-white text-2xl bg-zinc-800 my-1 py-4 px-8">
-                        A Netflix é um serviço de transmissão online que oferece uma ampla
-                        variedade de séries, filmes e documentários premiados em milhares de
-                        aparelhos conectados à internet.
-                        <br />
-                        Você pode assistir a quantos filmes e séries quiser, quando e onde
-                        quiser, sem comerciais – tudo por um preço mensal bem acessível.
-                        Aqui você sempre encontra novidades. A cada semana, adicionamos
-                        novas séries e filmes.
-                    </h4>
+                        <input id="email" name="email" type="email" placeholder="E-mail"
+                            class="bg-white px-4 py-2 rounded" />
+    
+                        <button class="bg-netflix text-white px-4 py-2 rounded">
+                            Vamos lá
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </button>
+                    </div>
                 </div>
-                <div class="w-full mb-1">
-                    <button class="bg-zinc-800 w-full focus:outline-none">
-                        <h3 class="text-white text-2xl font-bold my-1 py-4 px-8 justify-between flex">
-                            O que é netflix?
-
-                            <i class="fas fa-chevron-down ml-2"></i>
-                        </h3>
-                    </button>
-                    <h4 class="hidden text-white text-2xl bg-zinc-800 my-1 py-4 px-8">
-                        A Netflix é um serviço de transmissão online que oferece uma ampla
-                        variedade de séries, filmes e documentários premiados em milhares de
-                        aparelhos conectados à internet.
-                        <br />
-                        Você pode assistir a quantos filmes e séries quiser, quando e onde
-                        quiser, sem comerciais – tudo por um preço mensal bem acessível.
-                        Aqui você sempre encontra novidades. A cada semana, adicionamos
-                        novas séries e filmes.
-                    </h4>
-                </div>
-                <div class="w-full mb-1">
-                    <button class="bg-zinc-800 w-full focus:outline-none">
-                        <h3 class="text-white text-2xl font-bold my-1 py-4 px-8 justify-between flex">
-                            O que é netflix?
-
-                            <i class="fas fa-chevron-down ml-2"></i>
-                        </h3>
-                    </button>
-                    <h4 class="hidden text-white text-2xl bg-zinc-800 my-1 py-4 px-8">
-                        A Netflix é um serviço de transmissão online que oferece uma ampla
-                        variedade de séries, filmes e documentários premiados em milhares de
-                        aparelhos conectados à internet.
-                        <br />
-                        Você pode assistir a quantos filmes e séries quiser, quando e onde
-                        quiser, sem comerciais – tudo por um preço mensal bem acessível.
-                        Aqui você sempre encontra novidades. A cada semana, adicionamos
-                        novas séries e filmes.
-                    </h4>
-                </div>
-                <div class="w-full mb-1">
-                    <button class="bg-zinc-800 w-full focus:outline-none">
-                        <h3 class="text-white text-2xl font-bold my-1 py-4 px-8 justify-between flex">
-                            O que é netflix?
-
-                            <i class="fas fa-chevron-down ml-2"></i>
-                        </h3>
-                    </button>
-                    <h4 class="hidden text-white text-2xl bg-zinc-800 my-1 py-4 px-8">
-                        A Netflix é um serviço de transmissão online que oferece uma ampla
-                        variedade de séries, filmes e documentários premiados em milhares de
-                        aparelhos conectados à internet.
-                        <br />
-                        Você pode assistir a quantos filmes e séries quiser, quando e onde
-                        quiser, sem comerciais – tudo por um preço mensal bem acessível.
-                        Aqui você sempre encontra novidades. A cada semana, adicionamos
-                        novas séries e filmes.
-                    </h4>
-                </div>
-                <div class="w-full mb-1">
-                    <button class="bg-zinc-800 w-full focus:outline-none">
-                        <h3 class="text-white text-2xl font-bold my-1 py-4 px-8 justify-between flex">
-                            O que é netflix?
-
-                            <i class="fas fa-chevron-down ml-2"></i>
-                        </h3>
-                    </button>
-                    <h4 class="hidden text-white text-2xl bg-zinc-800 my-1 py-4 px-8">
-                        A Netflix é um serviço de transmissão online que oferece uma ampla
-                        variedade de séries, filmes e documentários premiados em milhares de
-                        aparelhos conectados à internet.
-                        <br />
-                        Você pode assistir a quantos filmes e séries quiser, quando e onde
-                        quiser, sem comerciais – tudo por um preço mensal bem acessível.
-                        Aqui você sempre encontra novidades. A cada semana, adicionamos
-                        novas séries e filmes.
-                    </h4>
-                </div>
-                <div class="w-full mb-1">
-                    <button class="bg-zinc-800 w-full focus:outline-none">
-                        <h3 class="text-white text-2xl font-bold my-1 py-4 px-8 justify-between flex">
-                            O que é netflix?
-
-                            <i class="fas fa-chevron-down ml-2"></i>
-                        </h3>
-                    </button>
-                    <h4 class="hidden text-white text-2xl bg-zinc-800 my-1 py-4 px-8">
-                        A Netflix é um serviço de transmissão online que oferece uma ampla
-                        variedade de séries, filmes e documentários premiados em milhares de
-                        aparelhos conectados à internet.
-                        <br />
-                        Você pode assistir a quantos filmes e séries quiser, quando e onde
-                        quiser, sem comerciais – tudo por um preço mensal bem acessível.
-                        Aqui você sempre encontra novidades. A cada semana, adicionamos
-                        novas séries e filmes.
-                    </h4>
-                </div>
-            </div>
-
-
-            <div class="text-center mt-10">
-                <h3 class="text-white text-2xl my-5">
-                    Pronto para assistir? Informe seu email para criar ou reiniciar sua
-                    assinatura.
-                </h3>
-                <input id="email" name="email" type="email" placeholder="E-mail"
-                    class="bg-white px-4 py-2 rounded" />
-
-                <button class="bg-red-600 text-white px-4 py-2 rounded">
-                    Vamos lá
-                    <i class="fas fa-arrow-right ml-2"></i>
-                </button>
             </div>
 
         </section>
-        <section class="border-y-4 border-gray-900 py-14 px-24">
-            <h4 class="text-base font-bold font-light text-zinc-400 mb-5">
+        <section class="border-y-4 border-netflix-border py-10 px-5 md:py-16 md:px-8 lg:px-12 lg:py-0 xl:py-10 xl:px-36 ">
+            <h4 class="text-base font-bold font-light text-zinc-400 my-5">
                 Dúvidas? Ligue <a href="tel:+5508007614631">0800-761-4631</a>
             </h4>   
             <div class="grid grid-cols-8 grid-rows-5 gap-2">
@@ -328,12 +349,12 @@
                 </select>
             </div>
 
-            <p class="text-zinc-400 font-light text-xs">
+            <p class="text-zinc-400 font-light text-xs my-8">
                 © 2020 Netflix, Inc. Todos os direitos reservados.
             </p>
 
         </section>  
-    </sec>
+    </div>
 </body>
 
 </html>
